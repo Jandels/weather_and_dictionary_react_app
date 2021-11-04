@@ -10,6 +10,9 @@ export default function App() {
           </h1>
 
           <h3>Emma's Dictionary and Weather App Portfollio</h3>
+
+          <button className="btn btn-primary">Weather</button>
+          <button className="btn btn-secondary">Dictionary</button>
         </body>
 
         <footer>
