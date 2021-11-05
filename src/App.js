@@ -1,5 +1,5 @@
 import "./App.css";
-import weatherapp from "./weatherapp.js";
+import WeatherApp from "./WeatherApp.js";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
 
           <button className="btn btn-primary">Weather</button>
           <button className="btn btn-secondary">Dictionary</button>
-          <weatherapp />
+          <WeatherApp />
         </body>
 
         <footer>
