@@ -20,6 +20,7 @@ export default function App() {
           <a
             href="https://github.com/Jandels/weather_and_dictionary_react_app"
             target="_blank"
+            rel="noreferrer"
           >
             open sourced on Github
           </a>
