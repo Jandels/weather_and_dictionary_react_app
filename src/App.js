@@ -6,10 +6,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         {/* Reminder ^ This code is used for Bootstrap */}
-        <body className="App-header">
-          <WeatherApp />
-        </body>
-        <footer>
+        <WeatherApp />
+        <p>
           This project was coded by Jandels and is{" "}
           <a
             href="https://github.com/Jandels/weather_and_dictionary_react_app"
@@ -18,7 +16,7 @@ export default function App() {
           >
             open sourced on Github
           </a>
-        </footer>
+        </p>
       </div>
     </div>
   );
