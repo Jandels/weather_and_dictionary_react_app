@@ -5,13 +5,13 @@ export default function WeatherApp() {
   return (
     <div className="WeatherApp">
       <div className="row search-bar">
-        <div className="col-6 ">
+        <div className="col-8 ">
           <h1>Search Bar</h1>
         </div>
 
-        <div className="col-6">
+        <div className="col-4">
           <button className="button">Search</button>
-          <button className="button">Your Location</button>
+          <button className="button">Weather at your Location</button>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ export default function WeatherApp() {
       </div>
 
       <div className="row ">
-        <div className="col-12 weather-forecast">
+        <div className="col-11 weather-forecast">
           <h1>Weather Forecast</h1>
           <div className="row">
             <div className="col-2">
