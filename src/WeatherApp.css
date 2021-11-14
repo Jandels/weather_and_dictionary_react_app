@@ -1,7 +1,36 @@
-.search-bar {
-  background-color: whitesmoke;
+.search-bar,
+.current-weather,
+.weather-quality,
+.weather-forecast {
   border-radius: 12px;
   margin: 20px auto;
+  padding: 10px;
+}
+
+.current-weather {
+  background-color: #5fd4f3;
+}
+
+.weather-quality {
+  background-color: #d9d9db;
+}
+
+.weather-forecast {
+  background-color: #1169f3;
+}
+
+.search-bar {
+  background-color: whitesmoke;
+}
+
+.precipitation,
+.humidity,
+.windspeed {
+  background: white;
+  border-radius: 12px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 5px;
 }
 
 .mb-3 {
@@ -19,31 +48,4 @@
   font-size: 16px;
   margin: 10px 10px;
   border-radius: 12px;
-}
-.current-weather {
-  background-color: #5fd4f3;
-  border-radius: 12px;
-  margin: 20px auto;
-}
-
-.weather-quality {
-  background-color: #d9d9db;
-  border-radius: 12px;
-  margin: 20px auto;
-}
-
-.precipitation,
-.humidity,
-.windspeed {
-  background: white;
-  border-radius: 12px;
-  margin: 10px auto;
-  text-align: center;
-  padding: 5px;
-}
-
-.weather-forecast {
-  background-color: #1169f3;
-  border-radius: 12px;
-  margin: 20px auto;
 }
