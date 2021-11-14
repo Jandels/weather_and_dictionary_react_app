@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         {/* Reminder ^ This code is used for Bootstrap */}
         <WeatherApp />
-        <p>
+        <p className="footer">
           This project was coded by Jandels and is{" "}
           <a
             href="https://github.com/Jandels/weather_and_dictionary_react_app"

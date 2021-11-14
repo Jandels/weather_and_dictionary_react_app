@@ -27,7 +27,13 @@ export default function WeatherApp() {
         <div className="col-5 current-weather">
           <h1>City Weather</h1>
           <ul>
-            <li>22°C</li>
+            <li>
+              <span className="current-temperature">22</span>
+              <span className="temperature-unts">
+                <a href="">°C|°F</a>
+              </span>
+            </li>
+            <li>Max temp/Min Temp</li>
             <li>Cloudy with a chance of meatballs</li>
             <li>
               {" "}

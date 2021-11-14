@@ -7,6 +7,10 @@
   padding: 10px;
 }
 
+.search-bar {
+  background-color: whitesmoke;
+}
+
 .current-weather {
   background-color: #5fd4f3;
 }
@@ -17,10 +21,6 @@
 
 .weather-forecast {
   background-color: #1169f3;
-}
-
-.search-bar {
-  background-color: whitesmoke;
 }
 
 .precipitation,
@@ -41,11 +41,33 @@
   background-color: #1169f3;
   border: none;
   color: white;
-  padding: 15px;
+  padding: 15px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 10px 10px;
   border-radius: 12px;
+  max-width: 250px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.current-temperature {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  height: auto;
+}
+
+.temperature-unts {
+  color: red;
+  position: relative;
+  top: -25px;
+
+  text-decoration: none;
+  margin-left: 5px;
 }
