@@ -1,7 +1,8 @@
 .search-bar,
 .current-weather,
 .weather-quality,
-.weather-forecast {
+.weather-forecast,
+.row {
   border-radius: 12px;
   margin: 20px auto;
   padding: 10px;
@@ -70,4 +71,11 @@ li {
 
   text-decoration: none;
   margin-left: 5px;
+}
+
+.large-weather-icon {
+}
+
+.sunrise-set-icon {
+  height: 50px;
 }

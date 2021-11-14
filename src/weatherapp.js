@@ -26,31 +26,49 @@ export default function WeatherApp() {
       <div className="row">
         <div className="col-5 current-weather">
           <h1>City Weather</h1>
-          <ul>
-            <li>
-              <span className="current-temperature">22</span>
-              <span className="temperature-unts">
-                <a href="">°C|°F</a>
-              </span>
-            </li>
-            <li>Max temp/Min Temp</li>
-            <li>Cloudy with a chance of meatballs</li>
-            <li>
-              {" "}
+
+          <div className="row">
+            <div className="col-6">
+              <ul>
+                <li>
+                  <span className="current-temperature">22</span>
+                  <span className="temperature-unts">
+                    <a href="">°C|°F</a>
+                  </span>
+                </li>
+                <li>Max temp/Min Temp</li>
+                <li>Cloudy with a chance of meatballs</li>
+              </ul>
+            </div>
+            <div className="col-6 large-weather-icon">
               <img
                 src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
                 alt="Italian Trulli"
               ></img>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
 
         <div className="col-6 weather-quality ">
           <h1>Weather Quality</h1>
-          <ul>
-            <li>Sunrise: 9am</li>
-            <li>Sunset: 6pm</li>
-          </ul>
+
+          <div className="row ">
+            <div className="col-6">
+              <ul>
+                <li>Sunrise: 9am</li>
+                <li>Sunset: 6pm</li>
+              </ul>
+            </div>
+
+            <div className="col-6">
+              {" "}
+              <img
+                className="sunrise-set-icon"
+                src="https://cdn.icon-icons.com/icons2/2787/PNG/512/sun_and_moon_icon_177460.png"
+                alt="sunrise sunset icon"
+              ></img>
+            </div>
+          </div>
 
           <div className="row">
             <div className="col-3 precipitation">
