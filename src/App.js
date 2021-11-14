@@ -19,7 +19,7 @@ export default function App() {
           </a>{" "}
           and hosted on{" "}
           <a
-            href="https://github.com/Jandels/weather_and_dictionary_react_app"
+            href="https://loving-lalande-b8bfeb.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
