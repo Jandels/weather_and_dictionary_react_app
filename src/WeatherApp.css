@@ -1,6 +1,11 @@
 .search-bar {
   background-color: whitesmoke;
   border-radius: 12px;
+  margin: 20px auto;
+}
+
+.mb-3 {
+  margin: 15px auto;
 }
 
 .button {
@@ -18,16 +23,17 @@
 .current-weather {
   background-color: #5fd4f3;
   border-radius: 12px;
-  margin: 10px 10px;
+  margin: 20px auto;
 }
 
 .weather-quality {
   background-color: #d9d9db;
   border-radius: 12px;
-  margin: 10px 10px;
+  margin: 20px auto;
 }
 
 .weather-forecast {
   background-color: #1169f3;
   border-radius: 12px;
+  margin: 20px auto;
 }

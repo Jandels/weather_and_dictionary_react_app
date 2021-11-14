@@ -6,7 +6,15 @@ export default function WeatherApp() {
     <div className="WeatherApp">
       <div className="row search-bar">
         <div className="col-8 ">
-          <h1>Search Bar</h1>
+          <form>
+            <div className="mb-3">
+              <input
+                type="search"
+                className="form-control"
+                placeholder="Input a city..."
+              />
+            </div>
+          </form>
         </div>
 
         <div className="col-4">
@@ -21,11 +29,17 @@ export default function WeatherApp() {
           <ul>
             <li>22°C</li>
             <li>Cloudy with a chance of meatballs</li>
-            <li> Weather Icon (Ideally Animated)</li>
+            <li>
+              {" "}
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="Italian Trulli"
+              ></img>
+            </li>
           </ul>
         </div>
 
-        <div className="col-5 weather-quality ">
+        <div className="col-6 weather-quality ">
           <h1>Weather Quality</h1>
           <ul>
             <li>Sunrise: 9am</li>
@@ -49,8 +63,13 @@ export default function WeatherApp() {
       <div className="row ">
         <div className="col-11 weather-forecast">
           <h1>Weather Forecast</h1>
+
           <div className="row">
             <div className="col-2">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="Italian Trulli"
+              ></img>
               <h3>Monday</h3>
               <ul>
                 <li>Temp Max</li>
@@ -60,6 +79,10 @@ export default function WeatherApp() {
             </div>
 
             <div className="col-2">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="Italian Trulli"
+              ></img>
               <h3>Tuesday</h3>
               <ul>
                 <li>Temp Max</li>
@@ -69,6 +92,10 @@ export default function WeatherApp() {
             </div>
 
             <div className="col-2">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="Italian Trulli"
+              ></img>
               <h3>Wednesday</h3>
               <ul>
                 <li>Temp Max</li>
@@ -78,6 +105,10 @@ export default function WeatherApp() {
             </div>
 
             <div className="col-2">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="Italian Trulli"
+              ></img>
               <h3>Thursday</h3>
               <ul>
                 <li>Temp Max</li>
@@ -87,6 +118,10 @@ export default function WeatherApp() {
             </div>
 
             <div className="col-2">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="Italian Trulli"
+              ></img>
               <h3>Friday</h3>
               <ul>
                 <li>Temp Max</li>
@@ -96,6 +131,10 @@ export default function WeatherApp() {
             </div>
 
             <div className="col-2">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="Italian Trulli"
+              ></img>
               <h3>Saturday</h3>
               <ul>
                 <li>Temp Max</li>
