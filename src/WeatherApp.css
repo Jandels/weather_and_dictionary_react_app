@@ -32,6 +32,16 @@
   margin: 20px auto;
 }
 
+.precipitation,
+.humidity,
+.windspeed {
+  background: white;
+  border-radius: 12px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 5px;
+}
+
 .weather-forecast {
   background-color: #1169f3;
   border-radius: 12px;

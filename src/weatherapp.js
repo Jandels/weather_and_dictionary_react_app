@@ -47,14 +47,21 @@ export default function WeatherApp() {
           </ul>
 
           <div className="row">
-            <div className="col-4">
-              <h5>Precipitation: 85%</h5>
+            <div className="col-3 precipitation">
+              <h5>
+                Precipitation
+                <br /> 85%
+              </h5>
             </div>
-            <div className="col-4">
-              <h5>Humidity: 23%</h5>
+            <div className="col-3 humidity">
+              <h5>
+                Humidity <br /> 23%
+              </h5>
             </div>
-            <div className="col-4">
-              <h5>wind Speed: 16 km/ph</h5>
+            <div className="col-3 windspeed">
+              <h5>
+                Wind Speed <br /> 16 km/ph
+              </h5>
             </div>
           </div>
         </div>
