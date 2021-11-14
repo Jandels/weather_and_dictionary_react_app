@@ -16,7 +16,9 @@ export default function WeatherInfo(props) {
                     {Math.round(props.data.temperature)}
                   </span>
                   <span className="temperature-unts">
-                    <a href="">°C|°F</a>
+                    <a href="https://github.com/Jandels/weather_and_dictionary_react_app/tree/master/src">
+                      °C|°F
+                    </a>
                   </span>
                 </li>
                 <li>
