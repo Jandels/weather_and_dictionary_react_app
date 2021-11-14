@@ -1,11 +1,10 @@
 import "./App.css";
-import WeatherApp from "./weatherapp.js";
+import WeatherApp from "./WeatherApp.js";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        {/* Reminder ^ This code is used for Bootstrap */}
         <WeatherApp defaultcity="Wellington" />
         <p className="footer">
           This project was coded by Jandels and is open sourced on{" "}
