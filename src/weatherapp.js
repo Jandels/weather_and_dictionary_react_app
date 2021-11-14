@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-
 import "./WeatherApp.css";
 import WeatherInfo from "./WeatherInfo";
 
@@ -44,7 +43,7 @@ export default function WeatherApp(props) {
       <div className="WeatherApp">
         <div className="row search-bar">
           <div className="col-8 ">
-            <form onSubtmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
               <div className="mb-3">
                 <input
                   type="search"
